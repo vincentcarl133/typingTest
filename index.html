@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="typing.png">
+</head>
+<body>
+    <div id="container">
+        <h1>Typing Test</h1>
+        <div id="controls">
+            <button id="thirty">30 Seconds</button>
+            <button id="sixty">60 Seconds</button>
+            <button id="beg">Beginner</button>
+            <button id="pro">Pro</button>
+            <button id="restartBtn">Restart</button>
+            <button id="changeBgColor">Color</button>
+        </div>
+        <div id="testArea">
+            <div id="testItem"></div>
+            <textarea id="textInput" rows="3" placeholder="Start typing..."></textarea>
+        </div>
+        <div id="stats">
+            <div id="timeContainer"><span id="timeName">Time</span>: <span id="time">30</span>s</div>
+            <div id="cwContainer"><span id="cwName">CW</span>: <span id="cw">0</span></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

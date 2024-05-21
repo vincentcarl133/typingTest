@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.black-bg {
+    background-color: rgb(36, 35, 35);
+    color: white; 
+}
+
+
+#container {
+    text-align: center;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#testArea {
+    margin: 20px 0;
+}
+
+#testItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#testItem span {
+    margin: 5px;
+}
+
+#textInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.current {
+    border-bottom: 2px solid blue;
+}
+
+#stats {
+    margin-top: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+}
